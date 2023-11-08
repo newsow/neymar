@@ -10,10 +10,10 @@ module.exports = (sequelize, DataTypes) => {
      * The `models/index` file will call this method automatically.
      */
     static associate(models) {
-      Courses.belongsToMany(models.Users,{through:models.users_courses,foreignKey:'course_id'})
-      Courses.belongsTo(models.Teachers)
-      Courses.belongsToMany(models.Events,{through:models.courses_events,foreignKey:'course_id'})
-      Courses.belongsToMany(models.Tags,{through:models.courses_tags,foreignKey:'course_id'})
+      Courses.belongsToMany(models.Users,{through:models.users_courses,foreignKey:'course_id',onDelete:'CASCADE'})
+      Courses.belongsTo(models.Teachers,{foreignKey:'teacher_id'})
+      Courses.belongsToMany(models.Events,{through:models.courses_events,foreignKey:'course_id',onDelete:'CASCADE'})
+      Courses.belongsToMany(models.Tags,{through:models.courses_tags,foreignKey:'course_id',onDelete:'CASCADE'})
     }
   }
   Courses.init({
