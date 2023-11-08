@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-home.css">
+    <script type="text/javascript" src="script.js"></script>
+    <title>Main</title>
+</head>
+<body id="main">
+    <nav class="nav">
+      <div class="modeView" onclick = "modeView()"><ion-icon name="sunny-outline" style="zoom: 180%; margin: 1.5px; color: white;"></ion-icon></div>
+      <div style="left: 43%; position: relative;">
+        <a class="element" id = "selected1" onclick = "Selected(1)" href="#recomendation">Рекомендации</a>
+        <a class="element" id = "selected2" onclick = "Selected(2)" href="#all">Все курсы</a>
+      </nav>
+    <div class ="profile" onclick = "profileopen()">Иван Иванов</div>
+    </div>
+    <div class="profile-info" id="profile-info">
+      <div style="position: relative; width: auto; height: 70px; border-bottom: 2px solid rgba(51, 51, 51, 0.5);">
+        <b style="margin-top: 20px;  position: absolute; margin-left: 70px;">Профиль</b>
+      <div class="profile-close" onclick = "profileclose()"><ion-icon style="zoom: 180%;" name="close-outline"></ion-icon></div>
+      </div>
+      <div class="logout-button" id="logout">
+        <ion-icon name="log-in-outline" style="position:absolute; background-color: red; zoom: 105%; bottom: 6px; left: 80px;"></ion-icon> Выйти
+      </div>
+    </div>
+    <div class="recomendation" id="recomendation">
+    <h1 style="left: 42%">Рекомендации</h1>
+    <div class="recomended-block">
+      <div class="recomended">
+        <div class="point"></div>
+        <div class="neymark">neymark</div>
+        <h2>Интенсив по Инфобезопасности</h2>
+        <a1>Октябрь - декабрь 2023 года | Защита работ - январь 2024 года</a1>
+        
+      </div>
+      <div class="recomended"> 
+      <div class="point"></div>
+      <div class="neymark">neymark</div>
+      <h2>Интенсив по Инфобезопасности</h2>
+      <a1>Октябрь - декабрь 2023 года | Защита работ - январь 2024 года</a1>
+      </div>
+      <div class="recomended">
+        <div class="point"></div>
+        <div class="neymark">neymark</div>
+        <h2>Интенсив по Инфобезопасности</h2>
+        <a1>Октябрь - декабрь 2023 года | Защита работ - январь 2024 года</a1>
+        
+      </div>
+      <div class="recomended">
+        <div class="point"></div>
+        <div class="neymark">neymark</div>
+        <h2>Интенсив по Инфобезопасности</h2>
+        <a1>Октябрь - декабрь 2023 года | Защита работ - январь 2024 года</a1>
+        
+      </div>
+      <div class="recomended">
+        <div class="point"></div>
+        <div class="neymark">neymark</div>
+        <h2>Интенсив по Инфобезопасности</h2>
+        <a1>Октябрь - декабрь 2023 года | Защита работ - январь 2024 года</a1>
+        
+      </div>
+      <div class="recomended">
+        <div class="point"></div>
+        <div class="neymark">neymark</div>
+        <h2>Интенсив по Инфобезопасности</h2>
+        <a1>Октябрь - декабрь 2023 года | Защита работ - январь 2024 года</a1>
+        
+      </div>
+    </div>
+    </div>
+    <div class="all" id="all">
+      <h1 style="left: 44%;">Все курсы</h1>
+      <<div class="recomended-block">
+        <div class="recomended">
+          <div class="point"></div>
+          <div class="neymark">neymark</div>
+          <h2>Интенсив по Инфобезопасности</h2>
+          <a1>Октябрь - декабрь 2023 года | Защита работ - январь 2024 года</a1>
+          
+        </div>
+        <div class="recomended"> 
+        <div class="point"></div>
+        <div class="neymark">neymark</div>
+        <h2>Интенсив по Инфобезопасности</h2>
+        <a1>Октябрь - декабрь 2023 года | Защита работ - январь 2024 года</a1>
+        </div>
+        <div class="recomended">
+          <div class="point"></div>
+          <div class="neymark">neymark</div>
+          <h2>Интенсив по Инфобезопасности</h2>
+          <a1>Октябрь - декабрь 2023 года | Защита работ - январь 2024 года</a1>
+          
+        </div>
+        <div class="recomended">
+          <div class="point"></div>
+          <div class="neymark">neymark</div>
+          <h2>Интенсив по Инфобезопасности</h2>
+          <a1>Октябрь - декабрь 2023 года | Защита работ - январь 2024 года</a1>
+          
+        </div>
+        <div class="recomended">
+          <div class="point"></div>
+          <div class="neymark">neymark</div>
+          <h2>Интенсив по Инфобезопасности</h2>
+          <a1>Октябрь - декабрь 2023 года | Защита работ - январь 2024 года</a1>
+          
+        </div>
+        <div class="recomended">
+          <div class="point"></div>
+          <div class="neymark">neymark</div>
+          <h2>Интенсив по Инфобезопасности</h2>
+          <a1>Октябрь - декабрь 2023 года | Защита работ - январь 2024 года</a1>
+          
+        </div>
+      </div>
+      </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    
+    background: url('https://w.forfun.com/fetch/c7/c7f23536b1ad3a4772056f9756893dd8.jpeg')no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.form-box{
+    position: relative;
+    width: 400px;
+    height: 450px;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.form-box2{
+    position: relative;
+    width: 400px;
+    height: 750px;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+h2{
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+}
+.inputbox{
+    position: relative;
+    margin: 30px 0;
+    width: 310px;
+    border-bottom: 2px solid #fff;
+}
+.inputbox label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 1em;
+    pointer-events: none;
+    transition: .5s;
+}
+input:focus ~ label,
+input:valid ~ label{
+top: -5px;
+}
+.inputbox input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding:0 35px 0 5px;
+    color: #fff;
+}
+.inputbox ion-icon{
+    position: absolute;
+    right: 8px;
+    color: #fff;
+    font-size: 1.2em;
+    top: 20px;
+}
+
+
+.register{
+    font-size: .9em;
+    color: #fff;
+    text-align: center;
+    margin: 25px 0 10px;
+}
+.register p a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+.register p a:hover{
+    text-decoration: underline;
+}
+
+button{
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    background: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+    text-align: center;
+    transition: 0.4s;
+}
+
+button:hover{
+    border: 2px solid rgba(51, 51, 51, 0.5);
+    -webkit-box-shadow: 0px 11px 19px 0px rgba(222, 235, 40, 0.67);
+-moz-box-shadow: 0px 11px 19px 0px rgba(34, 60, 80, 0.67);
+box-shadow: 0px 11px 19px 0px rgba(34, 60, 80, 0.67);
+    transition: 0.4s;
+}
+.faworites-block{
+
+    width: 400px;
+    height: 100px;
+    margin-top: -20px;
+    position: absolute;
+    margin-bottom: 30px;
+}
+.faworites{
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    min-width: 20%;
+    height: 30px; 
+    border-radius: 20px;
+    background: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+    text-align: center;
+    display: inline-block;
+    transition: 0.4s;
+}
+
+.faworites:hover{
+    filter: invert(1);
+    transition: 0.4s;
+    -webkit-box-shadow: 0px 11px 19px 0px rgba(222, 235, 40, 0.67);
+-moz-box-shadow: 0px 11px 19px 0px rgba(150, 255, 21, 0.67);
+box-shadow: 0px 11px 19px 0px rgba(209, 189, 36, 0.67);
+}
+
+.registration{
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    background: #000000;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.chose{
+    position: relative;
+    bottom: -130px;
+}
+h3{
+    margin-left: 60px;
+}
+
+
+.neymark-logo{
+position: absolute;
+width: 350px;
+height: 80px;
+zoom: 56%;
+top:0px;
+left: 110px;
+background: url('https://thumb.tildacdn.com/tild3932-3233-4461-b337-373137666439/-/resize/350x/-/format/webp/Vector.png');
+}
+
+.logo-logo{
+top:-60px;
+position: absolute;
+width: 880px;
+height: 880px;
+zoom: 7%;
+background: url('https://api.neuro-holst.ru/api/v1/image/share/render/7OxNJq2mRoED');
+
+border-radius: 120px;
+filter: invert(1);
+opacity: 80%;
+}
+
+.letter-logo{
+    left:60px;
+top:40px;
+position: absolute;
+width: 190px;
+height: 56px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 15px;
+letter-spacing: 0.195em;
+
+background: linear-gradient(101.67deg, #8F00FF 31.81%, rgba(30, 255, 255, 0.87) 66.22%, rgba(66, 127, 244, 0.460871) 85.08%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+}
